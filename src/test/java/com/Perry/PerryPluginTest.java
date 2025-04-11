@@ -1,13 +1,13 @@
-package com.example;
+package com.Perry;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class PerryPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(PerryVentoryPlugin.class);
 		RuneLite.main(args);
 	}
 }
